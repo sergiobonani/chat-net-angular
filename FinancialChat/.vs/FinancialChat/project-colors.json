@@ -1,0 +1,26 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "e64ee578-5d93-4211-b3f1-7c2ee3ca9a90": {
+      "ProjectGuid": "e64ee578-5d93-4211-b3f1-7c2ee3ca9a90",
+      "DisplayName": "FinancialChat.Web",
+      "ColorIndex": 0
+    },
+    "83095baa-9c41-4194-87f0-af025d132484": {
+      "ProjectGuid": "83095baa-9c41-4194-87f0-af025d132484",
+      "DisplayName": "FinancialChat.Application",
+      "ColorIndex": 1
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    },
+    "f42a20ab-07d6-43fe-bca2-09c98a5e8bf4": {
+      "ProjectGuid": "f42a20ab-07d6-43fe-bca2-09c98a5e8bf4",
+      "DisplayName": "FinancialChat.Web",
+      "ColorIndex": 2
+    }
+  },
+  "NextColorIndex": 3
+}
