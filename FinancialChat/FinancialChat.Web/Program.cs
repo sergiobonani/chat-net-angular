@@ -1,3 +1,5 @@
+using FinancialChat.Application.ViewModels;
+using FinancialChat.Infra.IoC;
 using FinancialChat.Web.Hubs;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -16,6 +18,12 @@ builder.Services.AddCors(opt =>
         });
     });
 builder.Services.AddSignalR();
+
+var appSettings = new AppSettings();
+builder.Configuration.Bind("AppSettings", appSettings);
+builder.Services.AddSingleton(appSettings);
+
+NativeInjector.RegisterServices(builder.Services);
 
 var app = builder.Build();
 

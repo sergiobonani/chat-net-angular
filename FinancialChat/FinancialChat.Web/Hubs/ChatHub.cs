@@ -1,15 +1,23 @@
-﻿using FinancialChat.Web.Interfaces;
+﻿using FinancialChat.Application.Interfaces.UseCases;
+using FinancialChat.Application.ViewModels;
+using FinancialChat.Web.Interfaces;
 using Microsoft.AspNetCore.SignalR;
 
 namespace FinancialChat.Web.Hubs
 {
     public class ChatHub : Hub<IChatHub>, IChatHub
     {
-
-        //public async Task OnSendMessage(string user, string message)
-        //{
-        //    await Clients.All.SendAsync("ReceiveMessage", user, message);
-        //}
+        private AppSettings _appSettings;
+        private ISendCommandToBotUseCase _sendCommandToBotUseCase;
+        private readonly ILogger<ChatHub> _logger;
+        public ChatHub(AppSettings appSettings,
+            ISendCommandToBotUseCase sendCommandToBotUseCase,
+            ILogger<ChatHub> logger)
+        {
+            _appSettings = appSettings;
+            _sendCommandToBotUseCase = sendCommandToBotUseCase;
+            _logger = logger;
+        }
 
         private const string CHAT_GROUP = "MainGroup";
 
@@ -35,7 +43,23 @@ namespace FinancialChat.Web.Hubs
 
         public async Task OnNewMessageAsync(string userName, string message)
         {
+            _logger.LogInformation(String.Format("Message -{0}- received by {1}", message, userName));
+            var viewModel = new MessageViewModel(Guid.NewGuid(), message);
+            if (!string.IsNullOrWhiteSpace(message) && message.StartsWith("/"))
+            {
+                message = await _sendCommandToBotUseCase.ExecuteAsync(viewModel);
+            }
             await Clients.OthersInGroup(CHAT_GROUP).OnNewMessageAsync(userName, message);
         }
+
+        //public async Task OnNewMessageAsync(MessageViewModel newMessage)
+        //{
+        //    if (newMessage.IsCommand())
+        //    {
+        //        await _sendCommandToBotUseCase.ExecuteAsync(newMessage);
+        //    }
+
+        //    await Clients.OthersInGroup(CHAT_GROUP).OnNewMessageAsync(newMessage);
+        //}
     }
 }

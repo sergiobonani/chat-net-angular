@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "nCcoECA4280RmLvvIB7fTd4XWRra4Ug5CJ3f+0Q/QQsEjTWw9GNKSofAK6BNq6T92wThyCZReXvVg2l4qUKrdQ==",
+  "success": true,
+  "projectFilePath": "D:\\Projetos\\FinancialChat\\FinancialChat\\FinancialChat.Infra.IoC\\FinancialChat.Infra.IoC.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\SergioBonani\\.nuget\\packages\\automapper\\12.0.0\\automapper.12.0.0.nupkg.sha512",
+    "C:\\Users\\SergioBonani\\.nuget\\packages\\csvhelper\\30.0.1\\csvhelper.30.0.1.nupkg.sha512",
+    "C:\\Users\\SergioBonani\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
+    "C:\\Users\\SergioBonani\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\7.0.0\\microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512",
+    "C:\\Users\\SergioBonani\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\7.0.0\\microsoft.extensions.logging.abstractions.7.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

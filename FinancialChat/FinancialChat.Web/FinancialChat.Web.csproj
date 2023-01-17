@@ -10,4 +10,9 @@
     <Folder Include="Areas\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\FinancialChat.Application\FinancialChat.Application.csproj" />
+    <ProjectReference Include="..\FinancialChat.Infra.IoC\FinancialChat.Infra.IoC.csproj" />
+  </ItemGroup>
+
 </Project>

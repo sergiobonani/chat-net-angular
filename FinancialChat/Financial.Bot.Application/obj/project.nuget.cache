@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "aIFsQXfW0rBfW8Yvs/v5T6gITuZDBPKKad9Kt8pFgcYSJhrEepHwhWNtEtqYi7CDotjO4KkTaQG277RcdHOGuw==",
+  "success": true,
+  "projectFilePath": "D:\\Projetos\\FinancialChat\\FinancialChat\\Financial.Bot.Application\\Financial.Bot.Application.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\SergioBonani\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\7.0.0\\microsoft.extensions.logging.abstractions.7.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
