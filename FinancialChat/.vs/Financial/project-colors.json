@@ -20,7 +20,52 @@
       "ProjectGuid": "f42a20ab-07d6-43fe-bca2-09c98a5e8bf4",
       "DisplayName": "FinancialChat.Web",
       "ColorIndex": 2
+    },
+    "cdef21e8-5204-47dd-8db0-0ae8fc7a4d62": {
+      "ProjectGuid": "cdef21e8-5204-47dd-8db0-0ae8fc7a4d62",
+      "DisplayName": "FinancialChat.Infra.IoC",
+      "ColorIndex": 3
+    },
+    "fd52eaa9-2648-4d1f-9825-6174405cbf23": {
+      "ProjectGuid": "fd52eaa9-2648-4d1f-9825-6174405cbf23",
+      "DisplayName": "FinancialChat.Domain",
+      "ColorIndex": 4
+    },
+    "cdcddf85-7ff7-4919-b39f-9d0cc6c222af": {
+      "ProjectGuid": "cdcddf85-7ff7-4919-b39f-9d0cc6c222af",
+      "DisplayName": "FinancialChat.Infra",
+      "ColorIndex": 5
+    },
+    "652b05b0-003f-4f47-b6cf-d07dbb87f8c3": {
+      "ProjectGuid": "652b05b0-003f-4f47-b6cf-d07dbb87f8c3",
+      "DisplayName": "FinancialChat.Bot",
+      "ColorIndex": 6
+    },
+    "df234277-81e2-410d-9eac-289d02d872d4": {
+      "ProjectGuid": "df234277-81e2-410d-9eac-289d02d872d4",
+      "DisplayName": "FinancialBot",
+      "ColorIndex": 7
+    },
+    "1018affd-3013-4b10-86f5-08639ff53362": {
+      "ProjectGuid": "1018affd-3013-4b10-86f5-08639ff53362",
+      "DisplayName": "Financial.Bot.API",
+      "ColorIndex": 8
+    },
+    "7a23b049-0db6-4108-b2cf-80f5a49568af": {
+      "ProjectGuid": "7a23b049-0db6-4108-b2cf-80f5a49568af",
+      "DisplayName": "Financial.Bot.Application",
+      "ColorIndex": 9
+    },
+    "a308d3a4-7131-4c89-9d0c-2e93df297838": {
+      "ProjectGuid": "a308d3a4-7131-4c89-9d0c-2e93df297838",
+      "DisplayName": "Financial.Core",
+      "ColorIndex": 10
+    },
+    "77167ee3-1779-42b0-9ac1-a510978d5959": {
+      "ProjectGuid": "77167ee3-1779-42b0-9ac1-a510978d5959",
+      "DisplayName": "FinancialChat.Consumer",
+      "ColorIndex": 11
     }
   },
-  "NextColorIndex": 3
+  "NextColorIndex": 12
 }

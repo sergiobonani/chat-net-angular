@@ -13,7 +13,7 @@ namespace Financial.Bot.API.Infra
         {
             _logger = logger;
         }
-        public void Publish<T>(T message, MessageBrokerSettings messageBroker)
+        public void Publish<T>(T message, QueueSettings messageBroker)
         {
             try
             {
@@ -21,7 +21,7 @@ namespace Financial.Bot.API.Infra
                 using var connection = factory.CreateConnection();
                 using var channel = connection.CreateModel();
                 channel.QueueDeclare(
-                                     queue: messageBroker.Queue,
+                                     queue: messageBroker.QueueName,
                                      durable: false,
                                      exclusive: false,
                                      autoDelete: false,
@@ -30,7 +30,7 @@ namespace Financial.Bot.API.Infra
                 var json = JsonSerializer.Serialize(message);
                 var body = Encoding.UTF8.GetBytes(json);
 
-                _logger.LogInformation("Publishing {Message} into {Queue} - {RoutingKey}", json, messageBroker.Queue, messageBroker.RoutingKey);
+                _logger.LogInformation("Publishing {Message} into {Queue} - {RoutingKey}", json, messageBroker.QueueName, messageBroker.RoutingKey);
 
                 channel.BasicPublish(
                                      exchange: string.Empty,

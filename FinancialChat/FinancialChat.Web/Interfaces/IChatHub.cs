@@ -1,6 +1,4 @@
-﻿using FinancialChat.Application.ViewModels;
-
-namespace FinancialChat.Web.Interfaces
+﻿namespace FinancialChat.Web.Interfaces
 {
     public interface IChatHub
     {

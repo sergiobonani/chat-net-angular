@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "O4FdOq9nMu7SF6zeFIsrugtEarRMa2B3wx7jYunX3F0zQ8cuKgA2aZLM+NZXZVEtUztUcLa0herQ/GNh3llRPA==",
+  "success": true,
+  "projectFilePath": "D:\\Projetos\\FinancialChat\\FinancialChat\\Financial.Chat.Infra\\Financial.Chat.Infra.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\SergioBonani\\.nuget\\packages\\csvhelper\\30.0.1\\csvhelper.30.0.1.nupkg.sha512",
+    "C:\\Users\\SergioBonani\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\7.0.0\\microsoft.extensions.logging.abstractions.7.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

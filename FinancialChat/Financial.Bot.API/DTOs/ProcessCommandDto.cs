@@ -6,6 +6,8 @@
 
         public string Message { get; set; }
 
-        public Guid SenderId { get; set; }
+        //public Guid SenderId { get; set; }
+
+        public string SenderName => "Bot";
     }
 }

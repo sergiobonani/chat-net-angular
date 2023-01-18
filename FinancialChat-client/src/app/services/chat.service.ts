@@ -32,7 +32,7 @@ export class ChatService {
     public initializeNewUserConnectionAsync(userName: string): Promise<void> {
         this._currentUserName = userName;
         this._hubConnection = new signalR.HubConnectionBuilder()
-                                .withUrl('https://localhost:7077/chatHub')
+                                .withUrl('https://localhost:7192/chatHub')
                                 .build();
 
         this.assignNewMessageReceived();
@@ -73,7 +73,7 @@ export class ChatService {
     private assignOnUserEnterChatAsync(): void {
         this._hubConnection.on('OnEnterChatAsync', (userName: string) => {
             const user = new User(userName, '1', '1', new Date());
-            const newMessage = new Message(user, `${userName} ingressou no chat`, MessageTypeEnum.ChatActions);
+            const newMessage = new Message(user, `${userName} joined chat`, MessageTypeEnum.ChatActions);
             this.newMessageReceivedEvent.emit(newMessage);
         });
     }
@@ -81,7 +81,7 @@ export class ChatService {
     private assignOnUserExitChatAsync(): void {
         this._hubConnection.on('OnExitChatAsync', (userName: string) => {
             const user = new User(userName, '1', '1', new Date());
-            const newMessage = new Message(user, `${userName} saiu do chat`, MessageTypeEnum.ChatActions);
+            const newMessage = new Message(user, `${userName} left chat`, MessageTypeEnum.ChatActions);
             this.newMessageReceivedEvent.emit(newMessage);
         });
     }

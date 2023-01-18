@@ -19,7 +19,6 @@ namespace Financial.Core.Gateways
 
             try
             {
-                //using var client = GetClient(clientName);
                 using var client = new HttpClient();
 
                 var clientResponse = await client.GetAsync(url);
@@ -44,7 +43,6 @@ namespace Financial.Core.Gateways
 
             try
             {
-                //using var client = GetClient(clientName);
                 var json = JsonSerializer.Serialize(contentMessage);
                 var content = new StringContent(json, Encoding.UTF8, "application/json");
 

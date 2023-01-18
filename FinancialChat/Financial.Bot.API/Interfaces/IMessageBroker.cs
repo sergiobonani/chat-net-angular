@@ -4,6 +4,6 @@ namespace Financial.Bot.API.Interfaces
 {
     public interface IMessageBroker
     {
-        void Publish<T>(T message, MessageBrokerSettings messageBroker);
+        void Publish<T>(T message, QueueSettings messageBroker);
     }
 }

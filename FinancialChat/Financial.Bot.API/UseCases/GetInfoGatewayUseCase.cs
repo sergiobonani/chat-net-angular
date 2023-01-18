@@ -15,7 +15,7 @@ namespace Financial.Bot.API.UseCases
 
         public async Task<string> ExecuteAsync(string command)
         {
-            var url = _appSettings.AllowedCommands.First().BaseUrl + string.Format(_appSettings.AllowedCommands.First().QueryString, command);
+            var url = _appSettings.AllowedCommandsSettings.First().BaseUrl + string.Format(_appSettings.AllowedCommandsSettings.First().QueryString, command);
             return await GetRequest<string>(url);
         }
     }

@@ -2,7 +2,6 @@ D:\Projetos\FinancialChat\FinancialChat\Financial.Core\bin\Debug\net6.0\Financia
 D:\Projetos\FinancialChat\FinancialChat\Financial.Core\bin\Debug\net6.0\Financial.Core.dll
 D:\Projetos\FinancialChat\FinancialChat\Financial.Core\bin\Debug\net6.0\ref\Financial.Core.dll
 D:\Projetos\FinancialChat\FinancialChat\Financial.Core\bin\Debug\net6.0\Financial.Core.pdb
-D:\Projetos\FinancialChat\FinancialChat\Financial.Core\obj\Debug\net6.0\Financial.Core.csproj.AssemblyReference.cache
 D:\Projetos\FinancialChat\FinancialChat\Financial.Core\obj\Debug\net6.0\Financial.Core.GeneratedMSBuildEditorConfig.editorconfig
 D:\Projetos\FinancialChat\FinancialChat\Financial.Core\obj\Debug\net6.0\Financial.Core.AssemblyInfoInputs.cache
 D:\Projetos\FinancialChat\FinancialChat\Financial.Core\obj\Debug\net6.0\Financial.Core.AssemblyInfo.cs

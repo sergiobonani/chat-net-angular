@@ -1,9 +1,18 @@
 using FinancialChat.Consumer;
+using FinancialChat.Consumer.DTOs;
+using FinancialChat.Consumer.Gateways;
+using FinancialChat.Consumer.Interfaces;
 
 IHost host = Host.CreateDefaultBuilder(args)
-    .ConfigureServices(services =>
+    .ConfigureServices((hostContext, services) =>
     {
-        services.AddHostedService<Worker>();
+        services.AddSingleton<IChatGateway, ChatGateway>();
+
+        var appSettings = new AppSettings();
+        hostContext.Configuration.Bind("AppSettings", appSettings);
+        services.AddSingleton(appSettings);
+        
+        services.AddHostedService<Worker>();        
     })
     .Build();
 

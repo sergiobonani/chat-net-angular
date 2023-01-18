@@ -2,13 +2,13 @@
     <div class="name-field-enter-chat-button">
         <input #inputName type="text" class="name-field" 
             (keyup.enter)="onEnterButtonClicked(inputName.value)"
-            placeholder="Digite seu nome" 
+            placeholder="Enter you user name" 
             [class.input-field-error] = "hasInpurError"  />
         <p class="user-name-error-message" *ngIf="hasInpurError">
-            Insira um nome de usuário, por favor.
+            Insert your User Name, please.
         </p>
         <div class="enter-chat-button" (click) = "onEnterButtonClicked(inputName.value)">
-            <p> Entrar no chat</p>
+            <p> Join chat</p>
         </div>
     </div>
 </main>

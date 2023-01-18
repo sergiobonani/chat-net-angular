@@ -3,27 +3,29 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.32126.317
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FinancialChat.Application", "FinancialChat.Application\FinancialChat.Application.csproj", "{83095BAA-9C41-4194-87F0-AF025D132484}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FinancialChat.Web", "FinancialChat.Web\FinancialChat.Web.csproj", "{F42A20AB-07D6-43FE-BCA2-09C98A5E8BF4}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FinancialChat.Infra.IoC", "FinancialChat.Infra.IoC\FinancialChat.Infra.IoC.csproj", "{CDEF21E8-5204-47DD-8DB0-0AE8FC7A4D62}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FinancialChat.Domain", "FinancialChat.Domain\FinancialChat.Domain.csproj", "{FD52EAA9-2648-4D1F-9825-6174405CBF23}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FinancialChat.Infra", "FinancialChat.Infra\FinancialChat.Infra.csproj", "{CDCDDF85-7FF7-4919-B39F-9D0CC6C222AF}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Bot", "Bot", "{DEB39D55-A001-4EF4-9EF1-7454F50DBEA6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Financial.Bot.API", "Financial.Bot.API\Financial.Bot.API.csproj", "{1018AFFD-3013-4B10-86F5-08639FF53362}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Financial.Bot.API", "Financial.Bot.API\Financial.Bot.API.csproj", "{1018AFFD-3013-4B10-86F5-08639FF53362}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{21D6C844-FCB6-48AA-8EA8-4425C2BF08E1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Financial.Core", "Financial.Core\Financial.Core.csproj", "{A308D3A4-7131-4C89-9D0C-2E93DF297838}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Financial.Core", "Financial.Core\Financial.Core.csproj", "{A308D3A4-7131-4C89-9D0C-2E93DF297838}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Consumer", "Consumer", "{8E2527F8-97F5-4874-8741-5957DEFDA8D6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FinancialChat.Consumer", "FinancialChat.Consumer\FinancialChat.Consumer.csproj", "{77167EE3-1779-42B0-9AC1-A510978D5959}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FinancialChat.Consumer", "FinancialChat.Consumer\FinancialChat.Consumer.csproj", "{77167EE3-1779-42B0-9AC1-A510978D5959}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Chat", "Chat", "{8722BE61-1196-45C4-BFB3-820B18E51152}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Financial.Chat.API", "Financial.Chat.API\Financial.Chat.API.csproj", "{2526B85F-BBB8-4B12-81A5-8780E6FDA4DC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Financial.Chat.Application", "Financial.Chat.Application\Financial.Chat.Application.csproj", "{2D3E2556-D80D-4745-A137-22EE6ACA6848}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Financial.Chat.Infra", "Financial.Chat.Infra\Financial.Chat.Infra.csproj", "{37B8B3A2-7A8A-4135-85A0-3E71EF4699C5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Financial.Chat.Infra.IoC", "Financial.Chat.Infra.IoC\Financial.Chat.Infra.IoC.csproj", "{58EF8DD9-042E-4674-82A0-3D2FAA37CC63}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Financial.Chat.Domain", "Financial.Chat.Domain\Financial.Chat.Domain.csproj", "{C8011DC0-EA41-44F7-A867-7556F38184D2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -31,26 +33,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{83095BAA-9C41-4194-87F0-AF025D132484}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{83095BAA-9C41-4194-87F0-AF025D132484}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{83095BAA-9C41-4194-87F0-AF025D132484}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{83095BAA-9C41-4194-87F0-AF025D132484}.Release|Any CPU.Build.0 = Release|Any CPU
-		{F42A20AB-07D6-43FE-BCA2-09C98A5E8BF4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F42A20AB-07D6-43FE-BCA2-09C98A5E8BF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F42A20AB-07D6-43FE-BCA2-09C98A5E8BF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F42A20AB-07D6-43FE-BCA2-09C98A5E8BF4}.Release|Any CPU.Build.0 = Release|Any CPU
-		{CDEF21E8-5204-47DD-8DB0-0AE8FC7A4D62}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{CDEF21E8-5204-47DD-8DB0-0AE8FC7A4D62}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{CDEF21E8-5204-47DD-8DB0-0AE8FC7A4D62}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{CDEF21E8-5204-47DD-8DB0-0AE8FC7A4D62}.Release|Any CPU.Build.0 = Release|Any CPU
-		{FD52EAA9-2648-4D1F-9825-6174405CBF23}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{FD52EAA9-2648-4D1F-9825-6174405CBF23}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{FD52EAA9-2648-4D1F-9825-6174405CBF23}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{FD52EAA9-2648-4D1F-9825-6174405CBF23}.Release|Any CPU.Build.0 = Release|Any CPU
-		{CDCDDF85-7FF7-4919-B39F-9D0CC6C222AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{CDCDDF85-7FF7-4919-B39F-9D0CC6C222AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{CDCDDF85-7FF7-4919-B39F-9D0CC6C222AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{CDCDDF85-7FF7-4919-B39F-9D0CC6C222AF}.Release|Any CPU.Build.0 = Release|Any CPU
 		{1018AFFD-3013-4B10-86F5-08639FF53362}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{1018AFFD-3013-4B10-86F5-08639FF53362}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1018AFFD-3013-4B10-86F5-08639FF53362}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -63,6 +45,26 @@ Global
 		{77167EE3-1779-42B0-9AC1-A510978D5959}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{77167EE3-1779-42B0-9AC1-A510978D5959}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{77167EE3-1779-42B0-9AC1-A510978D5959}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2526B85F-BBB8-4B12-81A5-8780E6FDA4DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2526B85F-BBB8-4B12-81A5-8780E6FDA4DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2526B85F-BBB8-4B12-81A5-8780E6FDA4DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2526B85F-BBB8-4B12-81A5-8780E6FDA4DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2D3E2556-D80D-4745-A137-22EE6ACA6848}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D3E2556-D80D-4745-A137-22EE6ACA6848}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D3E2556-D80D-4745-A137-22EE6ACA6848}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D3E2556-D80D-4745-A137-22EE6ACA6848}.Release|Any CPU.Build.0 = Release|Any CPU
+		{37B8B3A2-7A8A-4135-85A0-3E71EF4699C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37B8B3A2-7A8A-4135-85A0-3E71EF4699C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37B8B3A2-7A8A-4135-85A0-3E71EF4699C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37B8B3A2-7A8A-4135-85A0-3E71EF4699C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{58EF8DD9-042E-4674-82A0-3D2FAA37CC63}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58EF8DD9-042E-4674-82A0-3D2FAA37CC63}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58EF8DD9-042E-4674-82A0-3D2FAA37CC63}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58EF8DD9-042E-4674-82A0-3D2FAA37CC63}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C8011DC0-EA41-44F7-A867-7556F38184D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8011DC0-EA41-44F7-A867-7556F38184D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8011DC0-EA41-44F7-A867-7556F38184D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8011DC0-EA41-44F7-A867-7556F38184D2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -71,6 +73,11 @@ Global
 		{1018AFFD-3013-4B10-86F5-08639FF53362} = {DEB39D55-A001-4EF4-9EF1-7454F50DBEA6}
 		{A308D3A4-7131-4C89-9D0C-2E93DF297838} = {21D6C844-FCB6-48AA-8EA8-4425C2BF08E1}
 		{77167EE3-1779-42B0-9AC1-A510978D5959} = {8E2527F8-97F5-4874-8741-5957DEFDA8D6}
+		{2526B85F-BBB8-4B12-81A5-8780E6FDA4DC} = {8722BE61-1196-45C4-BFB3-820B18E51152}
+		{2D3E2556-D80D-4745-A137-22EE6ACA6848} = {8722BE61-1196-45C4-BFB3-820B18E51152}
+		{37B8B3A2-7A8A-4135-85A0-3E71EF4699C5} = {8722BE61-1196-45C4-BFB3-820B18E51152}
+		{58EF8DD9-042E-4674-82A0-3D2FAA37CC63} = {8722BE61-1196-45C4-BFB3-820B18E51152}
+		{C8011DC0-EA41-44F7-A867-7556F38184D2} = {8722BE61-1196-45C4-BFB3-820B18E51152}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {BB6F72D3-C906-4477-93BC-3200D6401560}

@@ -1,0 +1,17 @@
+D:\Projetos\FinancialChat\FinancialChat\Financial.Chat.Infra\bin\Debug\net6.0\Financial.Chat.Infra.deps.json
+D:\Projetos\FinancialChat\FinancialChat\Financial.Chat.Infra\bin\Debug\net6.0\Financial.Chat.Infra.dll
+D:\Projetos\FinancialChat\FinancialChat\Financial.Chat.Infra\bin\Debug\net6.0\ref\Financial.Chat.Infra.dll
+D:\Projetos\FinancialChat\FinancialChat\Financial.Chat.Infra\bin\Debug\net6.0\Financial.Chat.Infra.pdb
+D:\Projetos\FinancialChat\FinancialChat\Financial.Chat.Infra\bin\Debug\net6.0\Financial.Chat.Domain.dll
+D:\Projetos\FinancialChat\FinancialChat\Financial.Chat.Infra\bin\Debug\net6.0\Financial.Core.dll
+D:\Projetos\FinancialChat\FinancialChat\Financial.Chat.Infra\bin\Debug\net6.0\Financial.Chat.Domain.pdb
+D:\Projetos\FinancialChat\FinancialChat\Financial.Chat.Infra\bin\Debug\net6.0\Financial.Core.pdb
+D:\Projetos\FinancialChat\FinancialChat\Financial.Chat.Infra\obj\Debug\net6.0\Financial.Chat.Infra.csproj.AssemblyReference.cache
+D:\Projetos\FinancialChat\FinancialChat\Financial.Chat.Infra\obj\Debug\net6.0\Financial.Chat.Infra.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projetos\FinancialChat\FinancialChat\Financial.Chat.Infra\obj\Debug\net6.0\Financial.Chat.Infra.AssemblyInfoInputs.cache
+D:\Projetos\FinancialChat\FinancialChat\Financial.Chat.Infra\obj\Debug\net6.0\Financial.Chat.Infra.AssemblyInfo.cs
+D:\Projetos\FinancialChat\FinancialChat\Financial.Chat.Infra\obj\Debug\net6.0\Financial.Chat.Infra.csproj.CoreCompileInputs.cache
+D:\Projetos\FinancialChat\FinancialChat\Financial.Chat.Infra\obj\Debug\net6.0\Financial.Chat.Infra.csproj.CopyComplete
+D:\Projetos\FinancialChat\FinancialChat\Financial.Chat.Infra\obj\Debug\net6.0\Financial.Chat.Infra.dll
+D:\Projetos\FinancialChat\FinancialChat\Financial.Chat.Infra\obj\Debug\net6.0\ref\Financial.Chat.Infra.dll
+D:\Projetos\FinancialChat\FinancialChat\Financial.Chat.Infra\obj\Debug\net6.0\Financial.Chat.Infra.pdb

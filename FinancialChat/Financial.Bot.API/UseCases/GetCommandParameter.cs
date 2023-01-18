@@ -13,7 +13,7 @@ namespace Financial.Bot.API.UseCases
         }
         public (AllowedCommandsSettings?, string) Execute(string message)
         {
-            foreach (var item in _appSettings.AllowedCommands)
+            foreach (var item in _appSettings.AllowedCommandsSettings)
             {
                 var regex = new Regex($"(?<={item.Command}).*").Matches(message);
                 if (regex.Count > 0)

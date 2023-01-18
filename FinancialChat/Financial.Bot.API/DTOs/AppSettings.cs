@@ -2,6 +2,6 @@
 {
     public class AppSettings
     {
-        public List<AllowedCommandsSettings> AllowedCommands { get; set; }
+        public List<AllowedCommandsSettings> AllowedCommandsSettings { get; set; }
     }
 }

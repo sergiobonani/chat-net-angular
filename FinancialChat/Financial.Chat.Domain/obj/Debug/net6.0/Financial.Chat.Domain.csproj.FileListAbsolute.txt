@@ -1,0 +1,11 @@
+D:\Projetos\FinancialChat\FinancialChat\Financial.Chat.Domain\bin\Debug\net6.0\Financial.Chat.Domain.deps.json
+D:\Projetos\FinancialChat\FinancialChat\Financial.Chat.Domain\bin\Debug\net6.0\Financial.Chat.Domain.dll
+D:\Projetos\FinancialChat\FinancialChat\Financial.Chat.Domain\bin\Debug\net6.0\ref\Financial.Chat.Domain.dll
+D:\Projetos\FinancialChat\FinancialChat\Financial.Chat.Domain\bin\Debug\net6.0\Financial.Chat.Domain.pdb
+D:\Projetos\FinancialChat\FinancialChat\Financial.Chat.Domain\obj\Debug\net6.0\Financial.Chat.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projetos\FinancialChat\FinancialChat\Financial.Chat.Domain\obj\Debug\net6.0\Financial.Chat.Domain.AssemblyInfoInputs.cache
+D:\Projetos\FinancialChat\FinancialChat\Financial.Chat.Domain\obj\Debug\net6.0\Financial.Chat.Domain.AssemblyInfo.cs
+D:\Projetos\FinancialChat\FinancialChat\Financial.Chat.Domain\obj\Debug\net6.0\Financial.Chat.Domain.csproj.CoreCompileInputs.cache
+D:\Projetos\FinancialChat\FinancialChat\Financial.Chat.Domain\obj\Debug\net6.0\Financial.Chat.Domain.dll
+D:\Projetos\FinancialChat\FinancialChat\Financial.Chat.Domain\obj\Debug\net6.0\ref\Financial.Chat.Domain.dll
+D:\Projetos\FinancialChat\FinancialChat\Financial.Chat.Domain\obj\Debug\net6.0\Financial.Chat.Domain.pdb

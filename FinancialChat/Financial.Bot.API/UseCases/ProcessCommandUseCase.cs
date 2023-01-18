@@ -36,7 +36,7 @@ namespace Financial.Bot.API.UseCases
                 {
                     processCommand.Message = message;
 
-                    _messageBroker.Publish(processCommand, allowedCommand.MessageBroker);
+                    _messageBroker.Publish(processCommand, allowedCommand.QueueSettings);
                     return;
                 }
 
@@ -45,10 +45,10 @@ namespace Financial.Bot.API.UseCases
             }
             catch (Exception ex)
             {
-                var message = string.Format("Error processing command {0} with parameter {1}", "allowedCommand.Command", parameter);
+                var message = string.Format("Error processing command {0} with parameter {1}", allowedCommand.Command, parameter);
                 _logger.LogError(ex, message);
                 processCommand.Message = message;
-                _messageBroker.Publish(processCommand, null);
+                _messageBroker.Publish(processCommand, allowedCommand.QueueSettings);
             }
         }
     }

@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "v/W3jWj+yxC/e5d6eG5dFr1XVNcp+hRLavLIrBl05Ma7HHUsJY86dZgEeIMEKfnUmHWKTvV3pgIOY8oT10lsBg==",
+  "success": true,
+  "projectFilePath": "D:\\Projetos\\FinancialChat\\FinancialChat\\Financial.Chat.Application\\Financial.Chat.Application.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\SergioBonani\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
+    "C:\\Users\\SergioBonani\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
+    "C:\\Users\\SergioBonani\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\7.0.0\\microsoft.extensions.logging.abstractions.7.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
