@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "KD/LE8twQ0IeXqxAZoeiSksTEbhOQ/2rd9XFZjgoyKMNiDbR7Op0qDZpb5nRtb7YolAV1xUxUh7leAgnphvovw==",
+  "dgSpecHash": "JY5ip3wGyINOVPkDk3Oi8gP6bS+xnk/U4eyj3twP8IYFysxAaxaP0hEXcZ3DGbRhKoaqqklLcTMz12DCuRrhQQ==",
   "success": true,
   "projectFilePath": "D:\\Projetos\\FinancialChat\\FinancialChat\\FinancialChat.Consumer\\FinancialChat.Consumer.csproj",
   "expectedPackageFiles": [
@@ -30,6 +30,7 @@
     "C:\\Users\\SergioBonani\\.nuget\\packages\\microsoft.extensions.options\\6.0.0\\microsoft.extensions.options.6.0.0.nupkg.sha512",
     "C:\\Users\\SergioBonani\\.nuget\\packages\\microsoft.extensions.options.configurationextensions\\6.0.0\\microsoft.extensions.options.configurationextensions.6.0.0.nupkg.sha512",
     "C:\\Users\\SergioBonani\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0\\microsoft.extensions.primitives.6.0.0.nupkg.sha512",
+    "C:\\Users\\SergioBonani\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.14.0\\microsoft.visualstudio.azure.containers.tools.targets.1.14.0.nupkg.sha512",
     "C:\\Users\\SergioBonani\\.nuget\\packages\\rabbitmq.client\\6.4.0\\rabbitmq.client.6.4.0.nupkg.sha512",
     "C:\\Users\\SergioBonani\\.nuget\\packages\\system.diagnostics.diagnosticsource\\6.0.0\\system.diagnostics.diagnosticsource.6.0.0.nupkg.sha512",
     "C:\\Users\\SergioBonani\\.nuget\\packages\\system.diagnostics.eventlog\\6.0.0\\system.diagnostics.eventlog.6.0.0.nupkg.sha512",

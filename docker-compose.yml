@@ -1,0 +1,25 @@
+version: "3.5"
+
+services:
+
+  chat-api:
+    depends_on:
+      - bot-api
+    build:
+      context: ./FinancialChat
+      dockerfile: ./Financial.Chat.Api/Dockerfile
+    restart: always
+
+  bot-api:
+    build:
+      context: ./FinancialChat
+      dockerfile: ./Financial.Bot.Api/Dockerfile
+    restart: always
+
+  consumer:
+    depends_on:
+      - chat-api
+    build:
+      context: ./FinancialChat
+      dockerfile: ./FinancialChat.Consumer/Dockerfile
+    restart: on-failure
