@@ -60,3 +60,5 @@ Run the command:
     - Financial.Chat.Api
     - FinancialChat.Consumer
 4. Click on `► Start`  
+5. Open the cmd and navigate until financial-chat-client
+6. Execute the command `npm start´
